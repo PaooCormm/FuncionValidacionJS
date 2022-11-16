@@ -1,0 +1,46 @@
+* {box-sizing: border-box;}
+
+:is(html, body) {
+    height: 100%;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0 24px;
+    background-color: #da99ff;
+}
+
+@media (width >= 500px) {
+    body {
+        padding: 0;
+    }
+}
+
+input{
+    width: 240px;
+    outline: none;
+    height: 56px;
+    background: transparent;
+    border: 0;
+    border-bottom: 
+        2px solid rgba(0, 0, 0, 0.1);
+    font-family: inherit;
+    font-size: 18px;
+    padding: 0;
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+    width: 15%;
+    height: 56px;
+    background: #0D4C92;
+    color: #f9f9f9;
+    border: 0;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
